@@ -468,14 +468,14 @@ const orderItems = cart
     <div className="bg-zinc-900 rounded-3xl p-8">
 
       <h3 className="text-2xl md:text-3xl font-bold mb-6">
-        Billing Details
-      </h3>
+  Дані для доставки
+</h3>
 
       <div className="space-y-5">
 
         <input
 type="text"
-placeholder="Full Name"
+placeholder="ПІБ"
 value={fullName}
 onChange={(e) => setFullName(e.target.value)}
 className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
@@ -483,7 +483,7 @@ className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
 
         <input
 type="email"
-placeholder="Email Address"
+placeholder="Email"
 value={email}
 onChange={(e) => setEmail(e.target.value)}
 className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
@@ -491,7 +491,7 @@ className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
 
         <input
 type="text"
-placeholder="Phone Number"
+placeholder="Телефон"
 value={phone}
 onChange={(e) => setPhone(e.target.value)}
 className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
@@ -499,7 +499,7 @@ className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
 
         <input
 type="text"
-placeholder="Shipping Address"
+placeholder="Адреса доставки"
 value={address}
 onChange={(e) => setAddress(e.target.value)}
 className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
@@ -591,6 +591,13 @@ setShowNotification(true)
 setTimeout(() => {
   setShowNotification(false)
 }, 4000)
+
+setTimeout(() => {
+  window.open(
+    "https://t.me/StarlinkCheckoutBot",
+    "_blank"
+  )
+}, 800)
   }}
   className="block w-full bg-zinc-800 text-white py-4 rounded-xl text-lg font-bold hover:bg-zinc-700 transition text-center mb-4"
 >
@@ -603,11 +610,13 @@ setTimeout(() => {
   rel="noopener noreferrer"
   className="block w-full bg-white text-black py-4 rounded-xl text-lg font-bold hover:bg-gray-200 transition text-center"
 >
-  Оплатити через Telegram 🇺🇦
+  🚀 Завершити замовлення в Telegram
 </a>
 
 <p className="text-gray-400 text-sm mt-4 text-center">
-  📋 Скопіюйте замовлення, потім відкрийте Telegram та надішліть повідомлення боту.
+  📋 1. Скопіюйте замовлення
+📲 2. Відкрийте Telegram
+🚀 3. Надішліть замовлення боту
 </p>
 
     </div>
@@ -634,7 +643,7 @@ setTimeout(() => {
       md:hidden
     "
   >
-    🛒 Кошик ({cart.length}) • ${total}
+    💳 Оформити замовлення • ${total}
   </a>
 
 )}
