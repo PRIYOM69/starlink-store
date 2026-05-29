@@ -393,53 +393,7 @@ addToCart({
           </div>
         </div>
       </section>
-      <section className="bg-zinc-950 py-12 px-4 md:px-10">
 
-  <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-    Чому обирають нас
-  </h2>
-
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-    <div className="bg-zinc-900 p-6 rounded-3xl">
-      <div className="text-4xl mb-4">🚚</div>
-
-      <h3 className="text-xl font-bold mb-2">
-        Швидка доставка
-      </h3>
-
-      <p className="text-gray-400">
-        Відправка по всій Україні.
-      </p>
-    </div>
-
-    <div className="bg-zinc-900 p-6 rounded-3xl">
-      <div className="text-4xl mb-4">💬</div>
-
-      <h3 className="text-xl font-bold mb-2">
-        Підтримка 24/7
-      </h3>
-
-      <p className="text-gray-400">
-        Допомога через Telegram на кожному етапі.
-      </p>
-    </div>
-
-    <div className="bg-zinc-900 p-6 rounded-3xl">
-      <div className="text-4xl mb-4">⚡</div>
-
-      <h3 className="text-xl font-bold mb-2">
-        Швидке оформлення
-      </h3>
-
-      <p className="text-gray-400">
-        Замовлення займає менше хвилини.
-      </p>
-    </div>
-
-  </div>
-
-</section>
 <section id="cart" className="p-4 md:p-10">
 
   <h2 className="text-3xl md:text-4xl font-bold mb-8">
@@ -691,6 +645,53 @@ setTimeout(() => {
     </div>
 
   </div>
+</section>
+<section className="bg-zinc-950 py-12 px-4 md:px-10">
+
+  <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+    Чому обирають нас
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <div className="bg-zinc-900 p-6 rounded-3xl">
+      <div className="text-4xl mb-4">🚚</div>
+
+      <h3 className="text-xl font-bold mb-2">
+        Швидка доставка
+      </h3>
+
+      <p className="text-gray-400">
+        Відправка по всій Україні.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-3xl">
+      <div className="text-4xl mb-4">💬</div>
+
+      <h3 className="text-xl font-bold mb-2">
+        Підтримка 24/7
+      </h3>
+
+      <p className="text-gray-400">
+        Допомога через Telegram на кожному етапі.
+      </p>
+    </div>
+
+    <div className="bg-zinc-900 p-6 rounded-3xl">
+      <div className="text-4xl mb-4">⚡</div>
+
+      <h3 className="text-xl font-bold mb-2">
+        Швидке оформлення
+      </h3>
+
+      <p className="text-gray-400">
+        Замовлення займає менше хвилини.
+      </p>
+    </div>
+
+  </div>
+
 </section>
 {cart.length > 0 && (
 
