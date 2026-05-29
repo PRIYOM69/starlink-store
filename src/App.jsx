@@ -626,7 +626,7 @@ setTimeout(() => {
 {cart.length > 0 && (
 
   <a
-    href="#cart"
+  href="#payment"
     className="
       fixed
       bottom-4
