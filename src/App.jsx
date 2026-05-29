@@ -649,12 +649,12 @@ setTimeout(() => {
 <section className="bg-zinc-950 py-12 px-4 md:px-10">
 
   <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-    Чому обирають нас
+    Чому нам довіряють
   </h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-    <div className="bg-zinc-900 p-6 rounded-3xl">
+    <div className="bg-zinc-900 p-5 rounded-3xl">
       <div className="text-4xl mb-4">🚚</div>
 
       <h3 className="text-xl font-bold mb-2">
@@ -666,7 +666,7 @@ setTimeout(() => {
       </p>
     </div>
 
-    <div className="bg-zinc-900 p-6 rounded-3xl">
+    <div className="bg-zinc-900 p-5 rounded-3xl">
       <div className="text-4xl mb-4">💬</div>
 
       <h3 className="text-xl font-bold mb-2">
@@ -678,7 +678,7 @@ setTimeout(() => {
       </p>
     </div>
 
-    <div className="bg-zinc-900 p-6 rounded-3xl">
+    <div className="bg-zinc-900 p-5 rounded-3xl">
       <div className="text-4xl mb-4">⚡</div>
 
       <h3 className="text-xl font-bold mb-2">
@@ -688,6 +688,59 @@ setTimeout(() => {
       <p className="text-gray-400">
         Замовлення займає менше хвилини.
       </p>
+    </div>
+
+  </div>
+
+</section>
+<section className="bg-zinc-950 py-12 px-4 md:px-10">
+
+  <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+    ⭐ Відгуки клієнтів
+  </h2>
+
+  <div className="space-y-6">
+
+    <div className="bg-zinc-900 p-5 rounded-3xl">
+      <div className="text-yellow-400 mb-2">
+        ⭐⭐⭐⭐⭐
+      </div>
+
+      <p className="text-gray-300 mb-3">
+        Отримав комплект за 2 дні. Все працює чудово.
+      </p>
+
+      <div className="text-gray-500 text-sm">
+        Андрій, Київ
+      </div>
+    </div>
+
+    <div className="bg-zinc-900 p-5 rounded-3xl">
+      <div className="text-yellow-400 mb-2">
+        ⭐⭐⭐⭐⭐
+      </div>
+
+      <p className="text-gray-300 mb-3">
+        Підключили без проблем. Швидкість стабільна.
+      </p>
+
+      <div className="text-gray-500 text-sm">
+        Олександр, Львів
+      </div>
+    </div>
+
+    <div className="bg-zinc-900 p-5 rounded-3xl">
+      <div className="text-yellow-400 mb-2">
+        ⭐⭐⭐⭐⭐
+      </div>
+
+      <p className="text-gray-300 mb-3">
+        Дуже швидко відповіли в Telegram та допомогли з вибором тарифу.
+      </p>
+
+      <div className="text-gray-500 text-sm">
+        Ірина, Дніпро
+      </div>
     </div>
 
   </div>
