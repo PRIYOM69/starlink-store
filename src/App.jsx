@@ -339,7 +339,7 @@ const orderItems = cart
   Працює будь-де в Україні<br />
   Необмежений трафік
 </p>
-            <div className="text-4xl font-black mb-6">
+            <div className="text-4xl font-black mb-4">
               $129/month
             </div>
 
@@ -374,7 +374,7 @@ const orderItems = cart
   Пріоритетний доступ до мережі<br />
   Максимальна швидкість та стабільність
 </p>
-            <div className="text-4xl font-black mb-6">
+            <div className="text-4xl font-black mb-4">
               $350/month
             </div>
 
