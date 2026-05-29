@@ -309,7 +309,7 @@ const orderItems = cart
       price: 69,
     })
   }}
-  className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
+  className="w-full bg-white text-black py-2.5 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
   Підключити
 </button>
@@ -338,7 +338,7 @@ const orderItems = cart
       price: 129,
     })
   }}
-  className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
+  className="w-full bg-white text-black py-2.5 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
   Підключити
 </button>
@@ -367,7 +367,7 @@ const orderItems = cart
       price: 350,
     })
   }}
-  className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
+  className="w-full bg-white text-black py-2.5  rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
   Підключити
 </button>
