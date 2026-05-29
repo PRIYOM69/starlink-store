@@ -294,7 +294,7 @@ const orderItems = cart
   className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
 */}
-                         Residential
+                        
             <h3 className="text-2xl md:text-4xl font-bold mb-4">
   Residential
 </h3>
