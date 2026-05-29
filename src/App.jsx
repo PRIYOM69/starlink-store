@@ -349,11 +349,13 @@ const orderItems = cart
           </div>
 
           <div className="bg-black border border-zinc-800 p-4 md:p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
+          {/*
             <img
   src={businessProImg}
   alt="Business Pro"
   className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
+*/}
             <h3 className="text-3xl font-bold mb-4">
               Business Pro
             </h3>
