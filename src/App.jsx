@@ -295,8 +295,8 @@ const orderItems = cart
 />
 */}
                         
-            <h3 className="text-2xl md:text-4xl font-bold mb-4">
-  Residential
+            <h3 className="text-3xl font-bold mb-4">
+  🏠 Residential
 </h3>
 
 <p className="text-gray-400 text-sm mb-4">
@@ -332,7 +332,7 @@ const orderItems = cart
 />
 */}
             <h3 className="text-3xl font-bold mb-4">
-              Roam Unlimited
+              🚐 Roam Unlimited
             </h3>
 <p className="text-gray-400 text-sm mb-4">
   Для подорожей та кемперів<br />
@@ -367,7 +367,7 @@ const orderItems = cart
 />
 */}
             <h3 className="text-3xl font-bold mb-4">
-              Business Pro
+              🏢 Business Pro
             </h3>
 <p className="text-gray-400 text-sm mb-4">
   Для бізнесу та офісів<br />
