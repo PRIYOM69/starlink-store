@@ -306,7 +306,7 @@ const orderItems = cart
 </p>
 
 <div className="text-3xl md:text-5xl font-black mb-6">
-  $69/month
+  2899 грн/міс
 </div>
             <button
   onClick={() => {
@@ -340,7 +340,7 @@ const orderItems = cart
   Необмежений трафік
 </p>
             <div className="text-4xl font-black mb-4">
-              $129/month
+              5399 грн/міс
             </div>
 
             <button
@@ -375,7 +375,7 @@ const orderItems = cart
   Максимальна швидкість та стабільність
 </p>
             <div className="text-4xl font-black mb-4">
-              $350/month
+              14599 грн/міс
             </div>
 
             <button
