@@ -614,7 +614,30 @@ setTimeout(() => {
 
   </div>
 </section>
+{cart.length > 0 && (
 
+  <a
+    href="#cart"
+    className="
+      fixed
+      bottom-4
+      left-4
+      right-4
+      z-50
+      bg-white
+      text-black
+      py-4
+      rounded-2xl
+      text-center
+      font-bold
+      shadow-2xl
+      md:hidden
+    "
+  >
+    🛒 Кошик ({cart.length}) • ${total}
+  </a>
+
+)}
 </div>
 
   )
