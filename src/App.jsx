@@ -73,43 +73,41 @@ const orderItems = cart
   .map(item => `• ${item.name} x${item.quantity}`)
   .join("\n")
   return (
-    <div className="min-h-screen bg-black text-white scroll-smooth">
-      <header className="sticky top-0 z-50 backdrop-blur-xl bg-black/40 border-b border-white/10 px-8 py-5 flex justify-between items-center">
-        <h1 className="text-3xl font-black tracking-widest">
-  STARLINK
-</h1>
+    <div className="min-h-[80vh] bg-black text-white scroll-smooth overflow-x-hidden">
+      <header className="sticky top-0 z-50 backdrop-blur-xl bg-black/40 border-b border-white/10 px-4 py-4">
 
-        <nav className="flex items-center gap-4 sm:gap-8 text-sm font-semibold text-gray-300">
+  <div className="flex justify-between items-center">
 
-  <a
-    href="#products"
-    className="hover:text-white transition"
-  >
-    Товари
-  </a>
+    <h1 className="text-lg md:text-2xl font-black tracking-wide">
+      STARLINK
+    </h1>
 
-  <a
-    href="#plans"
-    className="hover:text-white transition"
-  >
-    Підписки
-  </a>
+    <a
+      href="#cart"
+      className="bg-white text-black px-3 py-2 rounded-full font-bold"
+    >
+      🛒 {cart.length}
+    </a>
 
-  <a
-    href="#payment"
-    className="hover:text-white transition"
-  >
-    Оплата
-  </a>
+  </div>
 
-</nav>
-<a
-  href="#cart"
-  className="bg-white text-black px-4 py-2 rounded-full font-bold hover:scale-110 transition duration-300 cursor-pointer"
->
-  🛒 {cart.length}
+  <nav className="flex justify-center gap-4 mt-3 text-xs sm:text-sm font-semibold text-gray-300">
+
+    <a href="#products" className="hover:text-white transition">
+  Товари
 </a>
-      </header>
+
+<a href="#plans" className="hover:text-white transition">
+  Плани
+</a>
+
+<a href="#payment" className="hover:text-white transition">
+  Оплата
+</a>
+
+  </nav>
+
+</header>
       {showNotification && (
 
   <div className="fixed top-24 left-1/2 -translate-x-1/2 z-[100] bg-white/10 backdrop-blur-xl border border-white/20 px-8 py-5 rounded-3xl shadow-2xl text-center animate-pulse">
@@ -126,7 +124,7 @@ const orderItems = cart
 
 )}
       <section
-  className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden"
+  className="relative min-h-[80vh] flex flex-col justify-center items-center text-center px-4 md:px-6 overflow-hidden"
 >
 
   <div
@@ -144,20 +142,20 @@ const orderItems = cart
     🇺🇦 Starlink для України
   </div>
 
-  <h2 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight mb-6">
+  <h2 className="text-3xl sm:text-5xl md:text-7xl font-black leading-tight mb-6">
     Супутниковий
         <br />
     Інтернет нового покоління
   </h2>
 
-  <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+  <p className="text-sm sm:text-base md:text-xl text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
     Швидкісний Starlink для дому, бізнесу,
     подорожей та роботи по всій Україні.
   </p>
 
   <a
     href="#products"
-    className="inline-block bg-white text-black px-10 py-5 rounded-2xl text-base sm:text-lg md:text-xl font-bold hover:bg-gray-200 transition"
+    className="inline-block bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-2xl text-sm sm:text-base md:text-xl font-bold hover:bg-gray-200 transition"
   >
     Перейти до товарів
   </a>
@@ -169,7 +167,7 @@ const orderItems = cart
 
       <section
   id="products"
-  className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 p-10"
+  className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 p-4 md:p-10"
 >
         <div className="bg-zinc-900 p-6 rounded-3xl border border-zinc-800 hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
            <img
@@ -277,9 +275,9 @@ const orderItems = cart
  
        <section
         id="plans"
-        className="bg-zinc-950 py-24 px-10"
+        className="bg-zinc-950 py-16 px-4 md:px-10"
       >
-        <h2 className="text-5xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12">
           Подписки
         </h2>
 
@@ -372,13 +370,13 @@ const orderItems = cart
           </div>
         </div>
       </section>
-<section id="cart" className="p-10">
+<section id="cart" className="p-4 md:p-10">
 
-  <h2 className="text-4xl font-bold mb-8">
-    Корзина
-  </h2>
+  <h2 className="text-3xl md:text-4xl font-bold mb-8">
+  Корзина
+</h2>
 
-  <div className="bg-zinc-900 rounded-3xl p-8">
+  <div className="bg-zinc-900 rounded-3xl p-4 md:p-8">
 
     {cart.length === 0 ? (
 
@@ -469,7 +467,7 @@ const orderItems = cart
 
     <div className="bg-zinc-900 rounded-3xl p-8">
 
-      <h3 className="text-3xl font-bold mb-8">
+      <h3 className="text-2xl md:text-3xl font-bold mb-6">
         Billing Details
       </h3>
 
