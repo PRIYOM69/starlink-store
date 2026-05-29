@@ -300,7 +300,9 @@ const orderItems = cart
 </h3>
 
 <p className="text-gray-400 text-sm mb-4">
-  Для дому та квартири
+  Для дому та квартири<br />
+  Швидкість до 250 Мбіт/с<br />
+  Необмежений трафік
 </p>
 
 <div className="text-3xl md:text-5xl font-black mb-6">
@@ -333,7 +335,9 @@ const orderItems = cart
               Roam Unlimited
             </h3>
 <p className="text-gray-400 text-sm mb-4">
-  Для подорожей та кемперів
+  Для подорожей та кемперів<br />
+  Працює будь-де в Україні<br />
+  Необмежений трафік
 </p>
             <div className="text-4xl font-black mb-6">
               $129/month
@@ -366,7 +370,9 @@ const orderItems = cart
               Business Pro
             </h3>
 <p className="text-gray-400 text-sm mb-4">
-  Для бізнесу та офісів
+  Для бізнесу та офісів<br />
+  Пріоритетний доступ до мережі<br />
+  Максимальна швидкість та стабільність
 </p>
             <div className="text-4xl font-black mb-6">
               $350/month
