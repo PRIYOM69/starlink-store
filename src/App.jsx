@@ -319,7 +319,7 @@ const orderItems = cart
             <img
   src={roamImg}
   alt="Roam Unlimited"
-  className="w-full object-contain rounded-2xl mb-6 hover:scale-105 transition duration-500"
+  className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
             <h3 className="text-3xl font-bold mb-4">
               Roam Unlimited
@@ -348,7 +348,7 @@ const orderItems = cart
             <img
   src={businessProImg}
   alt="Business Pro"
-  className="w-full object-contain rounded-2xl mb-6 hover:scale-105 transition duration-500"
+  className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
             <h3 className="text-3xl font-bold mb-4">
               Business Pro
