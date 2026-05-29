@@ -188,18 +188,17 @@ const orderItems = cart
           </p>
 
           <div className="text-3xl font-bold mb-6">
-            $249
+            7999 грн
           </div>
 
           <button
   onClick={() => {
 
     console.log("clicked")
-
-    addToCart({
-      name: "Starlink Standard",
-      price: 249,
-    })
+addToCart({
+  name: "Starlink Standard",
+  price: 7999,
+})
 
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
@@ -223,16 +222,16 @@ const orderItems = cart
           </p>
 
           <div className="text-3xl font-bold mb-6">
-            $169
+            5999 грн
           </div>
 <button
   onClick={() => {
     console.log("mini clicked")
 
     addToCart({
-      name: "Starlink Mini",
-      price: 169,
-    })
+  name: "Starlink Mini",
+  price: 5999,
+})
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
@@ -256,7 +255,7 @@ const orderItems = cart
           </p>
 
           <div className="text-3xl font-bold mb-6">
-            $1499
+            43999 грн
           </div>
 
           <button
@@ -264,9 +263,9 @@ const orderItems = cart
     console.log("business clicked")
 
     addToCart({
-      name: "Starlink Business",
-      price: 1499,
-    })
+  name: "Starlink Business",
+  price: 43999,
+})
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
@@ -314,7 +313,7 @@ const orderItems = cart
 
     addToCart({
       name: "Residential Subscription",
-      price: 69,
+      price: 2899,
     })
   }}
   className="w-full bg-white text-black py-2.5 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
@@ -349,7 +348,7 @@ const orderItems = cart
 
     addToCart({
       name: "Roam Unlimited",
-      price: 129,
+      price: 5399,
     })
   }}
   className="w-full bg-white text-black py-2.5 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
@@ -384,7 +383,7 @@ const orderItems = cart
 
     addToCart({
       name: "Business Pro",
-      price: 350,
+      price: 14599,
     })
   }}
   className="w-full bg-white text-black py-2.5  rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
@@ -449,10 +448,9 @@ const orderItems = cart
 
               <div className="flex items-center gap-4">
 
-  <span>
-  ${item.price * item.quantity}
+<span>
+  {item.price * item.quantity} грн
 </span>
-
   <button
     onClick={() => removeFromCart(index)}
     className="bg-red-500 px-3 py-1 rounded-lg"
@@ -468,8 +466,8 @@ const orderItems = cart
         </div>
 
         <div className="text-3xl font-bold">
-          Total: ${total}
-        </div>
+  Разом: {total} грн
+</div>
 
       </>
 
@@ -559,8 +557,8 @@ className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
             </div>
 
             <div>
-              ${item.price * item.quantity}
-            </div>
+  {item.price * item.quantity} грн
+</div>
 
           </div>
 
@@ -572,7 +570,7 @@ className="w-full bg-black border border-zinc-700 rounded-xl px-4 py-4"
 
         <span>Total</span>
 
-        <span>${total}</span>
+        <span>{total} грн</span>
 
       </div>
 
@@ -608,7 +606,7 @@ if (phone.length < 10) {
 🛒 Товари:
 ${orderItems}
 
-💵 Сума: $${total}`
+💵 Сума: ${total} грн
 )
 setShowNotification(true)
 
@@ -667,7 +665,7 @@ setTimeout(() => {
       md:hidden
     "
   >
-    💳 Оформити замовлення • ${total}
+   💳 Оформити замовлення • {total} грн
   </a>
 
 )}
