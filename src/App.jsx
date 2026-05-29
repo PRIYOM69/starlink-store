@@ -286,17 +286,17 @@ const orderItems = cart
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8">
-          <div className="bg-black border border-zinc-800 p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
+          <div className="bg-black border border-zinc-800 p-4 md:p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
             <img
   src={residentialImg}
   alt="Residential"
   className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
-            <h3 className="text-3xl font-bold mb-4">
+            <h3 className="text-2xl md:text-4xl font-bold mb-4">
               Residential
             </h3>
 
-            <div className="text-4xl font-black mb-6">
+            <div className="text-3xl md:text-5xl font-black mb-6">
               $69/month
             </div>
 
@@ -311,11 +311,11 @@ const orderItems = cart
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
-  Подключить
+  Підключити
 </button>
           </div>
 
-          <div className="bg-black border border-zinc-800 p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
+          <div className="bg-black border border-zinc-800 p-4 md:p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
             <img
   src={roamImg}
   alt="Roam Unlimited"
@@ -340,11 +340,11 @@ const orderItems = cart
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
-  Подключить
+  Підключити
 </button>
           </div>
 
-          <div className="bg-black border border-zinc-800 p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
+          <div className="bg-black border border-zinc-800 p-4 md:p-8 rounded-3xl hover:-translate-y-3 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 transition-all duration-300">
             <img
   src={businessProImg}
   alt="Business Pro"
@@ -369,7 +369,7 @@ const orderItems = cart
   }}
   className="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-gray-200 hover:scale-105 hover:shadow-xl hover:shadow-white/20 active:scale-95 transition-all duration-300"
 >
-  Подключить
+  Підключити
 </button>
           </div>
         </div>
