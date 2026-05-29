@@ -25,12 +25,16 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-    """
-📋 Спочатку надішліть дані замовлення з сайту.
+"""
+👋 Вітаємо у Starlink Store
 
-Після цього натисніть кнопку нижче для завершення оформлення.
-    """,
-    reply_markup=reply_markup
+📋 Вставте сюди скопійоване замовлення з сайту.
+
+Після надсилання замовлення натисніть кнопку нижче для отримання реквізитів оплати.
+
+🚀 Це займе менше хвилини.
+""",
+reply_markup=reply_markup
 )
 
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -46,24 +50,26 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         order_id = f"SL-{random.randint(10000, 99999)}"
 
         await query.message.reply_text(
-            f"""
-🧾 Order ID: {order_id}
+    f"""
+🧾 Номер замовлення: {order_id}
 
 🇺🇦 Реквізити для оплати
 
-Bank: Monobank
+🏦 Банк: Monobank
 
-Card Number:
+💳 Картка:
 4444 1111 2222 3333
 
-Отримувач:
+👤 Отримувач:
 Starlink Store
 
-Після оплати надішліть скріншот сюди.
+📸 Після оплати надішліть скріншот у цей чат.
 
-Після підтвердження оплати буде доступне відстеження замовлення 🚀
-            """
-        )
+✅ Після підтвердження платежу ви отримаєте повідомлення про успішне оформлення замовлення.
+
+🚀 Дякуємо за вибір Starlink Store!
+"""
+)
 async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     user = update.message.from_user
