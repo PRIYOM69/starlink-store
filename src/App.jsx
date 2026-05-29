@@ -606,7 +606,7 @@ if (phone.length < 10) {
 🛒 Товари:
 ${orderItems}
 
-💵 Сума: ${total} грн
+💵 Сума: ${total} грн`
 )
 setShowNotification(true)
 
