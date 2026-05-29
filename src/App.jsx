@@ -294,14 +294,18 @@ const orderItems = cart
   className="w-full h-40 md:h-auto object-cover rounded-2xl mb-4 hover:scale-105 transition duration-500"
 />
 */}
+                         Residential
             <h3 className="text-2xl md:text-4xl font-bold mb-4">
-              Residential
-            </h3>
+  Residential
+</h3>
 
-            <div className="text-3xl md:text-5xl font-black mb-6">
-              $69/month
-            </div>
+<p className="text-gray-400 text-sm mb-4">
+  Для дому та квартири
+</p>
 
+<div className="text-3xl md:text-5xl font-black mb-6">
+  $69/month
+</div>
             <button
   onClick={() => {
     console.log("residential clicked")
@@ -328,7 +332,9 @@ const orderItems = cart
             <h3 className="text-3xl font-bold mb-4">
               Roam Unlimited
             </h3>
-
+<p className="text-gray-400 text-sm mb-4">
+  Для подорожей та кемперів
+</p>
             <div className="text-4xl font-black mb-6">
               $129/month
             </div>
@@ -359,7 +365,9 @@ const orderItems = cart
             <h3 className="text-3xl font-bold mb-4">
               Business Pro
             </h3>
-
+<p className="text-gray-400 text-sm mb-4">
+  Для бізнесу та офісів
+</p>
             <div className="text-4xl font-black mb-6">
               $350/month
             </div>
